@@ -14,4 +14,7 @@ After the connection is established:
 - Create an ABAP package in the system to store development objects.
 - Inside the package, create an ABAP class that contains the code for the application.
 
-In this project, the class implements a simple Hello World console application to verify that the development environment is correctly configured.
+In this project, the class implements a simple Hello World console application.
+
+*Project was pushed to GitHub using abapGit*
+
