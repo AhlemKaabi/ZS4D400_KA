@@ -16,6 +16,6 @@ CLASS zcl_ka_hello_world IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
-    out->write( 'Hello World, I m Dreams' ).
+    out->write( 'Hello World, I m Dreams, from Git' ).
   ENDMETHOD.
 ENDCLASS.
