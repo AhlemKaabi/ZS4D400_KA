@@ -81,11 +81,11 @@ CLASS zcl_ka_simple_internal_tables IMPLEMENTATION.
     out->write(  `Example 4: LOOP ... ENDLOOP` ).
     out->write(  `---------------------------` ).
 
-    LOOP AT numbers INTO DATA(num).
+    LOOP AT numbers INTO number.
 
 *      out->write( | { sy-tabix } | ).
-      out->write( |Row: { sy-tabix } Content { num }| ).
-      out->write( | { sy-tabix } | ).
+      out->write( |Row: { sy-tabix } Content { number }| ).
+*      out->write( | { sy-tabix } | ).
 *      out->write( | { numbers[ sy-tabix ] } | ).
 
     ENDLOOP.
