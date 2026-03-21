@@ -1,0 +1,47 @@
+*"* use this source file for the definition and implementation of
+*"* local helper classes, interface definitions and type
+*"* declarations
+
+* Type lcl and type lcl and press ctrl+space
+
+class lcl_connection definition.
+
+  public section.
+
+    DATA carrier_id TYPE /DMO/CARRIER_ID.
+    DATA connection_id TYPE /DMO/CONNECTION_ID.
+
+    CLASS-DATA conn_counter TYPE i.
+
+
+  protected section.
+  private section.
+
+endclass.
+
+class lcl_connection implementation.
+
+endclass.
+
+
+*---------------
+* Compare your code on tab Local Types to the following extract from the model solution
+*---------------
+
+*CLASS lcl_connection DEFINITION.
+*
+*  PUBLIC SECTION.
+*
+*    DATA carrier_id    TYPE /dmo/carrier_id.
+*    DATA connection_id TYPE /dmo/connection_id.
+*
+*    CLASS-DATA conn_counter TYPE i.
+*
+*  PROTECTED SECTION.
+*  PRIVATE SECTION.
+*
+*ENDCLASS.
+*
+*CLASS lcl_connection IMPLEMENTATION.
+*
+*ENDCLASS.
